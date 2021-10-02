@@ -1,0 +1,708 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+#grany{
+	background: url('Без имени-2.png');
+	height: 105vh;
+	width: 140vh;
+	background-size: cover;
+	position: absolute;
+	margin-top: 8vh;
+	margin-left: 15vh;
+	animation: wg 2s 2s ease forwards;
+}
+@keyframes wg{
+	0%{
+		
+	}
+	100%{
+		margin-left: -150vh;
+	}
+}
+#showScroll{
+	height: 50px;
+	color: red;
+	background: black;
+	position: fixed;
+	display: none;
+	z-index: 1;
+}
+#span{
+	height: 0vh;
+	width: 30vw;
+	display: block;
+}
+p{
+	content: 'Welcome to the internet!';
+	color: cadetblue;
+	font-size: 10vh;
+	position: absolute;
+	font-weight: bolder;
+	transition-duration: 0.4s;
+	margin-left: 13vw;
+	animation: 1s wlcm ease forwards;
+}
+p:hover {
+    background: radial-gradient(#faebd712,#725199);
+    color: burlywood;
+    border-top-left-radius: 126vh;
+    border-bottom-right-radius: 68vh;
+    transform: skew(-25deg, -10deg) rotate(7deg);
+}
+#t1{
+	height: 27vh;
+	width: 34vw;
+	margin-left: -55vw; 
+	margin-top: 105.5vh;
+	position: absolute;
+	font-family: 'Press Start 2P', cursive;
+	color: #eab107;
+	word-spacing: 9px;
+	line-height: 3.9vh;
+	text-indent: 4vw;
+}
+
+#t2{
+	height: 27vh;
+	width: 34vw;
+	margin-left: -55vw; 
+	margin-top: 115.3vh;
+	position: absolute;
+	font-family: 'Press Start 2P', cursive;
+	color: #eab107;
+	word-spacing: 9px;
+	line-height: 3.9vh;
+	text-indent: 9vw;
+}
+#t3{
+	
+	height: 27vh;
+	width: 34vw;
+	margin-left: -0.5vw;
+	margin-top: 155vh;
+	position: absolute;
+	font-family: 'Press Start 2P', cursive;
+	color: #eab107;
+	word-spacing: 7px;
+	line-height: 3.9vh;
+	text-indent: 17vw;
+	text-align: end;
+}
+#t4::before{
+ content: '//';
+}
+
+#t4{
+	height: 54vh;
+	width: 20vw;
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	word-spacing: 9px;
+	line-height: 2.6vh;
+	margin-left: 1vw;
+	margin-top: 2vh;
+	position: relative;
+	z-index: 0;
+}
+#next{
+	height: 11vh;
+	background-color: #d3d3d3; 
+	position: absolute;
+	width: 0.4vw;
+	margin-top: -38vh;
+	margin-left: 93vw;
+	cursor: pointer;
+}
+#pn1{
+  height: 5vh;
+width: 0.4vw;
+background: #eab107;
+transform: rotate(30deg);
+margin-left: 0.6vw;
+margin-top: 10VH;
+}
+#pn2{
+  height: 5vh;
+width: 0.4vw;
+background: #eab107;
+transform: rotate(-30deg);
+margin-left: -0.45vw;
+margin-top: -5vh;
+}
+#t5{
+	height: 11vh;
+width: 77vw;
+color: white;
+font-family: 'Press Start 2P', cursive;
+word-spacing: 9px;
+line-height: 2.6vh;
+margin-left: 21vw;
+margin-top: -11vh;
+position: absolute;
+z-index: 0;
+}
+.slaid2 {
+	margin-left: 60vw;
+}
+.comp{
+
+	height: 24vh;
+	width: 17vw;
+	position: absolute;
+	margin-top: -43vh;
+	margin-left: 66vw;
+	background-image: url('комп-1.png');
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+}
+#c1{
+	margin-left: 33vw;
+}
+
+#ct1{
+	font-family: 'Press Start 2P', cursive;
+word-spacing: 6px;
+line-height: 2.6vh;
+color: white;
+margin-top: 5.7vh;
+font-size: 0.9vh;
+margin-left: 4.49vw;
+cursor: pointer;
+}
+#ct2{
+	font-family: 'Press Start 2P', cursive;
+word-spacing: 6px;
+line-height: 2.6vh;
+color: white;
+margin-top: 5.7vh;
+font-size: 0.9vh;
+margin-left: 6.7vw;
+cursor: pointer;
+transition-duration: 2s;
+}
+#cLine{
+	height: 0.5vh;
+    width: 0vw;
+    margin-left: 46.5vw;
+    margin-top: -34vh;
+    position: absolute;
+    background-color: white;
+    transition-duration: 1s;
+}
+.star{
+	display: hidden;
+}
+
+#back{
+	background: url(91ff3126790220d65495bc220afae96d.jpg);
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;  
+}
+.s1{
+	height: 100vh;
+	width: 100vw;
+	margin-top: 100vh;
+	transition-duration: 0.5s;
+	position: absolute;
+}
+.sputnik, img{
+	margin-left: -13vw;
+	margin-top: 8vh;
+	transition-duration: 1s;
+}
+.sputnik img{
+	transform: rotate(0deg);
+	    border-radius: 50%;
+	    transition-duration: 1s;
+	width: 53vh;
+	z-index: 2;
+	position: absolute;
+	height: 53vh;
+}
+.s3{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	margin-top: 198vh;
+	background: #00002b;
+}
+.s3Cont{
+
+	height: 98vh;
+	width: 100vw;
+	cursor: cell;
+}
+#t6{
+	    height: 11vh;
+    width: 77vw;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    word-spacing: 9px;
+    line-height: 2.6vh;
+    margin-left: 21vw;
+    margin-top: 29vh;
+    position: absolute;
+    z-index: 0;
+
+}
+#IRC{
+	height: 30vh;
+	width: 30vh;
+	background-image: url('17-android-apps-that-geeks-will-love.png');
+	z-index: 4;
+	position: absolute;
+	background-size: cover;
+	transition-duration: 2s;
+	margin-top: 0vh;
+}
+#IRC:hover{
+	animation: irc cubic-bezier(.59,.92,1,1) 0.7s forwards;
+}
+.s4Cont{
+	height: 100vh;
+	width: 100vw;
+	background-color: #b0dfea;
+	cursor: url('http://www.rw-designer.com/cursor-extern.php?id=151727');
+	font-family: 'DM Sans', sans-serif;
+}
+#t7{
+	height: 10vh;
+	font-family: 'DM Sans', sans-serif;
+	margin-top: 4vh;
+	position: absolute;
+	margin-left: 1vw;
+}
+#TimH{
+	height: 70vh;
+	width: 49vh;
+	background-image: url('30-Tim-Berners-Lee.jpg');
+	background-size: cover;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+#TimH::after {
+  content: 'Тим Бернерс-Ли';
+  margin-left: 16vw;
+  color: #c0e2ff;
+}
+#t8{
+	margin-top: 22vh;
+	margin-left: 70vh;
+	position: absolute;
+	height: 30vh;
+	width: 20vw;
+}
+#Mosaic{
+	height: 50vh;
+	background-image: url('Mosaic-screenshot.jpg');
+	width: 70vh;
+	background-position: center;
+	background-size: cover;
+	transition-duration: 1s;
+	position: absolute;
+	margin-left: 50vw;
+	transform: scale(0,0);
+}
+.s5Cont{
+	height: 100vh;
+	width: 100vw;
+}
+#before{
+	width: 50vw;
+	background-image: url('wYUNzB.png');
+	background-size: cover;
+	height: 100vh;
+	position: absolute;
+	transition-duration: 1s;
+}
+#before:hover{
+	width: 65vw;
+	z-index: 1;
+}
+#phGr{
+	height: 20vh;
+	width: 42.2vw;
+	background: linear-gradient(90deg,#00028e , #7ba0d9);
+	margin-top: 31vh;
+	margin-left: 30vw;
+	position: absolute;
+	z-index: 2;
+}
+#phrase{
+	font-family: 'Roboto Slab', serif;
+	position: absolute;
+	background: #fff;
+	height: 28vh;
+	width: 40vw;
+	padding-top: 0vh;
+	margin-top: 33vh;
+	margin-left: 30vw;
+	border-radius: 0vh;
+	z-index: 2;
+	border: 0.3vh solid #bfbfbf;
+	border-top: 0vh solid;
+	padding-bottom: 4vh;
+	font-size: 1.7vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	justify-content: unsafe;
+	padding-right: 2vh;
+	padding-left: 2vh;
+}
+#phrase::after{
+	height: 2.5vh;
+	width: 6vw;
+	content: 'Next';
+	border: #d5d1d1 0.3vh outset;
+	position: absolute;
+	text-align: center;
+	margin-top: 1.5vh;
+	display: flex;
+	flex-direction: column-reverse;
+}
+#phrase:active::after {
+    background: #b0b0b0;
+    border: #d5d1d1 0.3vh inset;
+}
+#after{
+	transition-duration: 1s;
+	width: 50vw;
+	background-image: url('mosaic.jpg');
+	background-size: cover;
+	height: 100vh;
+	position: absolute;
+	margin-left: 50vw;
+}
+#phrase p {
+    align-items: flex-start;
+}
+#after:hover{
+	width: 65vw;
+	z-index: 1;
+	margin-left: 35vw
+}
+.s6Cont{
+	height: 100vh;
+	width: 100vw;
+	background-color: #b0dfea;
+}
+
+#w3c{
+	background-image: url('stonks.png');
+	
+	width: 58vh;
+	height: 44vh;
+	background-size: cover;
+	position: absolute;
+	margin-top: 16vh;
+}
+#panel{
+	background-image: url('панель.png');
+	width: 203vh;
+	height: 4.69vh;
+	background-size: cover;
+	position: absolute;
+	margin-top: 96vh;
+}
+#time{
+  width: 2vw;
+  height: 1vh;
+  font-family: 'DM Sans', sans-serif;
+  position: absolute;
+  margin-left: 94vw;
+  margin-top: 0.5vh;
+  font-size: 3vh;
+}
+#txt{
+	background-image: url('yefy454euueu.PNG');
+	width: 11vh;
+	height: 10vh;
+	background-size: cover;
+	margin-top: 81vh;
+	position: absolute;
+	margin-left: 91vw;
+}
+#txt::after {
+    content: 'объединение.txt';
+    text-align: center;
+    margin-top: 10vh;
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+}
+#lGr{
+ 	width: inherit;
+	height: 2vh;
+	background: linear-gradient(90deg,#00028e , #7ba0d9);
+	margin-top: -3vh;
+	position: absolute;
+	padding-left: 1vh;
+	margin-left: -1vh; 
+	transform: scale(0,0);
+}
+#list{
+ 	background: white;
+width: 40vh;
+height: 35vh;
+position: absolute;
+margin-left: 161vh;
+margin-top: 59vh;
+font-family: 'DM Sans', sans-serif;
+padding-top: 2vh;
+padding-left: 1vh;
+display: none;
+transform: scale(0,0);
+	
+}
+.s7Cont{
+	height: 101vh;
+	width: 100vw;
+	background: linear-gradient(30deg, lightblue, darkblue);
+	font-family: 'Segoe UI';;
+	color: white;
+}
+#t9::before {
+    filter: blur(40px);
+    height: 46vh;
+    width: 41vw;
+    background: linear-gradient(red,aqua);
+    position: absolute;
+}
+#t9{
+	margin-top: 56vh;
+	margin-left: 70vh;
+	position: absolute;
+	height: 30vh;
+	width: 20vw;
+	font-size: 1.6vh;
+}
+#itapok{
+	height: 48vh;
+	width: 10vw;
+	background-image: url('айтапок.png');
+	background-size: cover;
+	position: absolute;
+	transform: rotate(-20deg);
+	margin-top: 2vh;
+}
+#runfornet{
+	height: 43vh;
+	width: 63vh;
+	background-image: url('бежимзаинетом.png');
+	background-size: cover;
+	position: absolute;
+	margin-top: 56vh;
+}
+#smf{
+	height: 47vh;
+	position: absolute;
+	width: 11vw;
+	background-image: url('телефон.png') ;
+	background-size: cover;
+	
+	margin-top: 2vh;
+}
+#web{
+	height: 46vh;
+	position: absolute;
+	width: 31vw;
+	background-size: cover;
+	background-image: url('dunya_bu_sorularin_yanitlarini_ariyor_1536150945515.jpg');
+	margin-top: 2vh;
+	margin-left: -31vw;
+}
+#mks{
+	height: 46vh;
+	position: absolute;
+	width: 39vw;
+	background-image: url('1448366149.jpg') ;
+	background-size: cover;
+	margin-top: 2vh;
+	margin-left: -42vw;
+}
+#t10{
+	margin-top: 56vh;
+	margin-left: 112vh;
+	position: absolute;
+	height: 30vh;
+	width: 20vw;
+	font-size: 1.6vh;
+}
+#kayo{
+	height: 41vh;
+	width: 15vw;
+	background: url('Robert_Cailliau_On_Desk.jpg');
+	background-size: cover;
+	position: absolute;
+	margin-top: 56vh;
+	margin-left: 79vw;
+}
+.s8Cont{
+	height: 100vh;
+	width: 100vw;
+	background: #a8a7a7;
+}
+#t11{
+	width: 19vw;
+	padding: 0.8vh;
+	background: #a0a0a0;
+	margin-left: 70vw;
+	margin-top: 10vh; 
+	border: gray outset 0.5vh;
+	position: absolute;
+	height: 45vh;
+	transition: 1s;
+	z-index: 1;
+}
+#www{
+	height: 100vh;
+	width: 65vw;
+	background-image: url('worldwideweb-browser.png');
+	background-size: cover;
+}
+#nextp{
+	height: 2.5vh;
+	width: 6vw;
+	content: 'Next';
+	border: #d7d7d7 solid 0.3vh;
+	text-align: center;
+	background: #a0a0a0;
+	border-bottom-color: #373737;
+	border-right-color: #373737;
+	font-family: sans-serif;
+	font-size: 2.3vh;
+	margin-top: -49vh;
+	margin-left: 77vw;
+	z-index: 2;
+	position: absolute;
+}
+#nextp:active {
+    background: #7b7b7b;
+    border: #373737 solid 0.3vh;
+    border-bottom-color: #d7d7d7;
+    border-right-color: #d7d7d7;
+}
+@keyframes itapok {
+	0%{
+margin-left: -10vw;
+	}
+	100%{
+margin-left: 9vw;
+	}
+}
+@keyframes smf {
+	0%{
+margin-left: -10vw;
+	}
+	100%{
+margin-left: 17vw;
+	}
+}
+@keyframes web {
+	0%{
+	}
+	100%{
+margin-left: 24vw;
+	}
+}
+@keyframes mks {
+	0%{
+margin-left: -40vw;
+	}
+	100%{
+margin-left: 47vw;
+	}
+}
+@keyframes l{
+	0%{
+		
+	}
+	100%{
+		transform: scale(1,1);
+		display: block;
+	background: white;
+	width: 40vh;
+	height: 35vh;
+	position: absolute;
+	margin-left: 115vh;
+	margin-top: 37vh;
+	font-family: 'DM Sans', sans-serif;
+	padding-top: 2vh;
+	padding-left: 1vh;
+		border: 0.3vh solid #bfbfbf;
+		border-top: 0;
+		font-size: 1.8vh;
+	}
+}
+@keyframes lg{
+	0%{
+	
+	}
+	100%{
+	width: inherit;
+	height: 2vh;
+	background: linear-gradient(90deg,#00028e , #7ba0d9);
+	margin-top: -3vh;
+	position: absolute;
+	padding-left: 1vh;
+	margin-left: -1vh;
+	transform: scale(1,1);
+	}
+}
+@keyframes ms{
+	0%{
+		transform: scale(0,0);
+		margin-left: 14vw;
+		margin-top: 100vh; 
+	}
+	100%{
+		transform: scale(1,1);
+margin-left: 114vh;
+		margin-top: 15vh; 
+	}
+}
+	
+@keyframes irc{
+	0%{
+		margin-top: 0vh; 
+	}
+	50%{
+		margin-top: -3vh;
+	}
+	100%{
+		margin-top: 0vh; 
+	}
+}
+@keyframes wlcm{
+	0%{
+		margin-left: -20vw; 
+	}
+	75%{
+		margin-left: 15vw;
+		margin-top: 13vh;
+		border-bottom: 1vh #6f29a8 solid;
+	}
+	79%{
+		border-bottom: 0.8vh #d547c5 solid;
+		border-radius: 30%;
+	}
+	80%{
+		border-bottom: 0.3vh #d547c5 solid;
+	}
+	100%{
+		margin-left: 17vw;
+		margin-top: 3vh;
+		
+	}
+}
